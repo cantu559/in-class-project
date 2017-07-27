@@ -1,0 +1,73 @@
+
+
+
+#about-hero{
+    background-image: url(https://previews.123rf.com/images/hroephoto/hroephoto1402/hroephoto140200016/26061974-A-load-of-old-paint-cans-and-glue-buckets-in-a-recycling-facility-Stock-Photo.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    float: left;
+    
+}
+
+#about-hero~h1 {
+    width: 20%;
+    float: right;
+    margin-top: 8%;
+    text-shadow: 2px 2px 4px #e7e7e7;
+}
+
+
+/*column styles*/
+
+.column {
+    width: 33%; /*approximate*/
+    height: 400px;
+    float: left;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.column p{
+    text-align: justify;
+    height: 260px;
+    overflow: scroll;
+}
+
+#col-1{
+    clear: both;
+}
+
+.column button{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    left: 35%;
+}
+
+#col-1 button {
+    color: #fff;
+    background-color: #0000ff;
+    padding: 5%;
+    border-style: none
+}
+
+#col-1 button:hover{
+    background-color: #fff;
+    color: #0000ff;
+    -webkit-transition-duration: 0.5s;
+    padding: 15%;
+}
+
+#col-2 button{
+    color:#fff;
+    background-color: #008b8b;
+    padding: 5%;
+}
+
+#col-3 button{
+    color:#fff;
+    background-color: #ff8c00;
+    padding: 5%;
+}

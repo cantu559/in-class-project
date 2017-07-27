@@ -1,0 +1,333 @@
+/* FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,700i,400,900|Permanent+Marker');
+
+
+
+/*universals*/
+*{
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;  
+  color: #fff;
+}
+
+/*h1,h2,h3,h4,h5,h6 {
+    font-family: 'Permanent Marker', cursive;
+}*/
+
+p,a, {
+    "Lato" , sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+html,body{
+    margin: 0;
+}
+
+
+/* Header Styles */
+
+/*header{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 9999999;
+    background-color: #000;
+   /* margin: 0;
+    padding: 0
+    overflow: hidden;
+    top: 0;
+}*/
+
+
+img{
+    display: block;
+}
+    
+
+/*.head{
+    display: inline;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    /*font-family: "Gravitas one";
+    width: 10%;
+    color: #fff;
+}*/
+
+/*nav{
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+    margin-top: -125px;
+}
+
+/*nav ul{
+    float: right;
+    width: 100%;
+    margin-bottom: 0px;
+}*/
+
+/*--------trying new header from w3 schools---------*/
+
+
+
+nav{
+    height: px;
+    position: fixed;
+    z-index: 99999;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+}
+
+li{
+    font-size: 20px;
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/*nav ul li{
+    position: relative;
+    display: inline-block;
+    padding: 2%;
+    font-size: 24px;
+    border-radius: 10px 10px 0px 0px;
+    float: right;*/
+}
+
+#home-link{
+    color: #fff;
+    
+}
+
+#about-link{
+    color: #fff;
+
+}
+
+#contact-link{
+   color: #fff;
+
+}
+
+/*===============hero section begins================*/
+
+#hero{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url("https://static.pexels.com/photos/159045/the-interior-of-the-repair-interior-design-159045.jpeg");
+    background-size: 100% 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /*border: solid 5px #000;*/
+    
+}
+
+#hero h2{
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 45%;
+    left: 10px;
+    margin: 0px;
+    /*z-index: 9999;*/
+    
+}
+
+
+#gallery{
+    background-image: url("http://www.truequalitynow.com/photos/exterior-house-painting.jpg");
+    height: 700px;
+    width: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250% 215%;
+    border-top: solid 30px #000;
+    border-right: solid 15px #000;
+    display: inline-block;
+    
+}
+
+    
+/*#gallery h2{
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 45%;
+    left: 10px;
+    margin: 0px;
+    z-index: 99999;*/
+    
+.button {
+    background-color: #000; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 300px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+
+.estimates:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.services:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.gallery:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#services{
+    background-image: url("../img/hero.jpg");
+    height: 700px;
+    width: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 125%;
+    border-top: solid 30px #000;
+    border-left: solid 15px #000;
+    display: inline-block;
+    float: right;
+
+}
+
+
+#services h2{
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 45%;
+    left: 10px;
+    margin: 0px;
+}
+
+#estimate{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url("https://static.pexels.com/photos/8614/painting-black-paint-roller.jpg");
+    background-size: 100% 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: solid 30px #000;
+}
+
+/*sidebar section begins*/
+
+/*aside{
+    height: 350px;
+    background-color: #ffff00;
+    border: 2px solid #000;
+    width: 35%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: italic;
+    float: left;
+}
+
+#blog-links {
+    list-style-type: none;
+    height:100%;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#blog-links a {
+    color: #ff00ff;
+    display: block;
+    height: 25%;
+}
+
+
+#blog-links li{
+    border: 2px solid #000;
+    color: #000;
+    height: 100%;
+}
+
+#blog-links li:hover{
+    background-color: #fff;
+    font-weight: 900;*/
+}
+
+body{
+}
+
+/*main  section begins*/
+
+/*main{
+    float: left;
+    width: 65%;
+    height: 300px
+    overflow: auto;
+}
+
+main h1{
+    letter-spacing: 8px;
+}
+
+#main-text {
+    font-size: 1.5em;
+    line-height: 25px;
+    padding: 0px 16px;
+}*/
+
+
+/*footer*/
+footer{
+    background-color:#000;
+    padding: 24px;
+    clear: both;
+    
+}
+
+.fa{
+    color: #e40006;
+}
